@@ -1,0 +1,149 @@
+/*-----------*/
+@media(min-width:1200px)
+{
+	.title
+	{
+		font-size: 28px;
+	}
+	.boton
+	{
+		font-size: 25px;
+	}
+	/*------------------------------------menu*/
+	#logo-dsk
+	{
+		display: block;
+		height: 40px;
+		top: 5px;
+		position: relative;
+		float: left;
+	}
+	.logo
+	{
+		display: none;
+	}
+	.icon-menu
+	{
+		display: none;
+	}
+	.container
+	{
+		max-width: 1500px;
+	}
+	#menu
+	{
+		height: auto;
+		width: auto;
+		background-color: transparent;
+		position: relative;
+		float: right;
+		top: 0px;
+		right: 0;
+		z-index: 800;
+	}
+	#menu ul
+	{
+		display: flex;
+		position: relative;
+		flex-wrap: wrap;
+	}
+	.menu-item a
+	{
+		padding: 15 20;
+	}
+	.menu-item a:hover
+	{
+		color: red;
+		background-color: white;
+	}
+	/*----------------------------------servicios */
+	#cds-container
+	{
+		max-width: 1500px;
+		padding: 0 0 20 0;
+	}
+	#servicios
+	{
+		padding: 40 0;
+	}
+	#servicios .title
+	{
+		margin-bottom: 50px;
+	}
+	
+	/*-----------------------------------Galeria ^^*/
+	#galeria .title
+	{
+		margin: 50;
+	}
+	#galeria .boton
+	{
+		margin: 60;
+	}
+	
+	.gal-itm
+	{
+		width: 25%;
+		height: 300px;
+		max-width: 500px;
+	}
+	.galeria-cnt
+	{
+		max-width: 1500px;
+		position: relative;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	
+	/*-----------------------------------Precios*/
+	
+	.precio-cnt
+	{
+		max-width: 1500px;
+	}
+	#precios .title
+	{
+		margin: 50px 0 25px;
+	}
+	
+	/*------------------------------------Contacto*/
+	
+	.formu-cont
+	{
+		max-width: 1500px;
+	}
+	#contacto .boton
+	{
+		display: inline;
+		margin: 50;
+		top: 0;
+	}
+	#contacto .title
+	{
+		margin: 50 0;
+	}
+	.dir-cont .title
+	{
+		font-size: 20px;
+	}
+	.dir-cont span
+	{
+		font-size: 45px;
+		display: inline-block;
+		margin: 0 0 20 0;
+	}
+	
+	/*-------------------------------ubicacion*/
+	
+	.dir
+	{
+		font-size: 25px;
+		padding: 50px 0;
+	}
+	.horario
+	{
+		font-size: 25px;
+		padding: 50 0;
+	}
+}

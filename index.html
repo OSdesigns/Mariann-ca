@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html5>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="js/script.js"></script>
+	<title>Mariann c.a</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1 minimum-scale=1">
+    <link rel="stylesheet" href="css/movil.css">
+	<link rel="stylesheet" href="css/desk.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="css/icons-codes.css">
+	<link rel="stylesheet" href="css/icons-embedded.css">
+	<link rel="stylesheet" href="css/icons-ie7-codes.css">
+	<link rel="stylesheet" href="css/icons-ie7.css">
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="icon" type="image/png" href="img/fav16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/fav32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/fav96x96.png" sizes="96x96">
+</head>
+
+<body>
+        <header id="head">
+			<div class="container">
+				<img src="img/isologotipo_R.png" id="logo-movil" alt="Mariann ca logo" class="logo" onclick="link('#')">
+
+				<img src="img/logotipo_R.png" id="logo-dsk" alt="Mariann ca logo" onclick="link('#')">
+				
+				<div class="icon-menu" onclick="menu()" id="btn-men" for="boton"></div>
+           
+           <nav id="menu">
+                <ul>
+                   	<li class="menu-item"><a href="#" onclick="menu()">Inicio</a></li>
+                    <li class="menu-item"><a href="#servicios" onclick="menu()">Servicios</a></li>
+                    <li class="menu-item"><a href="#galeria" onclick="menu()">Galeria</a></li>
+                    <li class="menu-item"><a href="#precios" onclick="menu()">Precios</a></li>
+                    <li class="menu-item"><a href="#contacto" onclick="menu()">Contacto</a></li>
+                    <li class="menu-item"><a href="#ubicacion" onclick="menu()">Ubicación</a></li>
+                </ul>
+            </nav>
+            </div>
+            
+            
+            
+        </header>
+                
+        <div class="banner">
+            <div class="hero">
+                <h1>Tu belleza <br> <span class="second">Nuestra prioridad</span></h1>
+                <a href="#contacto" class="boton">¡Agenda tu cita!</a>
+            </div>
+        </div>
+        
+        <div id="servicios">
+            <h2 class="title">¿Que ofrecemos?</h2>
+            
+            <div id="cds-container">
+                <div class="card" onclick="link('#galeria')">
+                  <div class="bg"></div>
+                   <h2 class="cds-txt">Peluquería</h2>
+                   <img class="cds-img" id="frst" src="img/1.jpg" alt="">
+                </div>
+                <div class="card" onclick="link('#galeria')">
+                  <div class="bg"></div>
+                   <h2 class="cds-txt">Manicure y Pedicure</h2>
+                   <img class="cds-img" id="scnd" src="img/2.jpg" alt="">
+                </div>
+                <div class="card" onclick="link('#galeria')">
+                  <div class="bg"></div>
+                   <h2 class="cds-txt">Barbería</h2>
+                   <img class="cds-img" id="trd" src="img/3.jpg" alt="">
+                </div>
+                <div class="card" onclick="link('#galeria')">
+                  <div class="bg"></div>
+                   <h2 class="cds-txt">Cejas y depilacion</h2>
+                   <img class="cds-img" id="fth" src="img/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div id="galeria">
+        	<h2 class="title" id="galery">Trabajos recientes</h2>
+        	
+        	<div class="galeria-cnt">
+        		<div class="gal-itm" onclick="newtab('../img/1.jpg')"><img src="img/1.jpg" alt="" class="gal-foto"></div>
+        		<div class="gal-itm" onclick="newtab('../img/gal2.jpg')"><img src="img/gal2.jpg" alt="" class="gal-foto"></div>
+        		<div class="gal-itm" onclick="newtab('../img/gal3.jpg')"><img src="img/gal3.jpg" alt="" class="gal-foto"></div>
+        		<div class="gal-itm" onclick="newtab('../img/gal4.jpg')"><img src="img/gal4.jpg" alt="" class="gal-foto"></div>
+        		<div class="gal-itm" onclick="newtab('../img/gal5.jpg')"><img src="img/gal5.jpg" alt="" class="gal-foto"></div>
+        		<div class="gal-itm" onclick="newtab('../img/gal6.jpg')"><img src="img/gal6.jpg" alt="" class="gal-foto"></div>
+        		<div class="gal-itm" onclick="newtab('../img/gal7.jpg')"><img src="img/gal7.jpg" alt="" class="gal-foto"></div>
+        		<div class="gal-itm" onclick="newtab('../img/gal8.jpg')"><img src="img/gal8.jpg" alt="" class="gal-foto"></div>
+        	</div>
+        	
+        	<a href="#" id="btn-gal" class="boton">¡Ver mas!</a>
+        </div>
+        
+        <div id="precios">
+        	<h2 class="title" id="tit-precios">Precios</h2>
+        	
+        	<div class="precio-cnt">
+				<ul class="hoja-de-precios">
+					<li><span class="nombre">Corte femenino</span><span class="precio">$20</span></li>
+					<li><span class="nombre">Corte masculino</span><span class="precio">$20</span></li>
+					<li><span class="nombre">Corte niños</span><span class="precio">$10</span></li>
+					<li><span class="nombre">Pintado</span><span class="precio">$20</span></li>
+					<li><span class="nombre">Secado</span><span class="precio">$10</span></li>
+					<li><span class="nombre">Planchado</span><span class="precio">$5</span></li>
+					<li><span class="nombre">Uñas</span><span class="precio">$20</span></li>
+					<li><span class="nombre">Cejas</span><span class="precio">$10</span></li>
+					<li><span class="nombre">Depilado</span><span class="precio">$10</span></li>
+					<li><span class="nombre">Manicure</span><span class="precio">$10</span></li>
+					<li><span class="nombre">Pedicura</span><span class="precio">$10</span></li>
+				</ul>
+       		</div>
+        </div>
+        
+        <div id="contacto">
+        	<h2 class="title">Contacto</h2>
+        	
+        	<form class="formu-cont" action="mail.php" method="post">
+        		<input name="nombre" required type="text" placeholder="Nombre" class="imp-but">
+        		
+        		<input name="mail" required type="text" placeholder="Correo Electronico" class="imp-but">
+        		
+        		<textarea required name="msg" id="mensaje" placeholder="Tu mensaje"></textarea>
+        		
+        		<input type="submit" class="boton" id="btn-cont">
+        		
+        	</form>
+        	
+        	
+        	<div class="dir-cont">
+        		<h2 class="title">o contactanos directamente</h2><br>
+        		
+        		<span class="icon-whatsapp"></span><span class="number">+58 414 968 9305</span>
+        	</div>
+        </div>
+        
+        <div id="ubicacion">
+        	<h2 class="title">¿Donde estamos?</h2>
+        	
+        	<img id="Ubi" src="img/gps.jpg" alt="Mapa-Ubicacion-Mariann-Peluquería" onclick="newtab('https://www.google.com/maps/@10.0600141,-72.5569573,20z?hl=es')">
+        	
+        	<h3 class="dir">
+        		Calle Junin entre Av. Sta Teresa y Apón <br>
+        		<span>Machiques, Zulia, Venezuela</span>
+        	</h3>
+        	
+        	<div class="separador"></div>
+        	
+        	<h3 class="horario">
+        		Disponibles de <span>8:00</span>am a<span> 5:00</span>pm 
+        	</h3>
+        	
+        </div>
+        
+        <footer>
+			<div class="foot-cont">
+				<div class="mariann-ca" onclick="newtab('https://instagram.com')">
+					<img src="img/logotipo_R.png" class="Mariann-footer" alt="Logo-Mariann-CA">
+
+					<div class="link-cont">
+						<a href=""><span class="icon-instagram-circled"></span>@Mariann_ca</a>
+					</div>
+				</div>	
+
+				<div class="os" onclick="newtab('https://instagram.com')">
+					<img src="img/logo_OS.png" class="os-footer" alt="Logo-OSdesigns">
+
+					<a href="#" class="link-os"><span class="icon-instagram-circled"></span>OS_designs_IG</a>
+				</div>
+		   	</div>
+        </footer>
+</body>
+
+</html>
