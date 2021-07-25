@@ -6,6 +6,4 @@
 	$contenido = "Nombre: " . $nombre . "\nDireccion de e-mail: " . $correo . "\nMensaje: " . $mensaje;
 
 	mail($destino, "Contacto", $contenido);
-	
-	echo '<script>alert("gracias " + $nombre + "tu mensaje se ha enviado correctamente")</script>';
 ?>
