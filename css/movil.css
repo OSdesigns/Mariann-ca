@@ -355,6 +355,7 @@ header
 #contacto
 {
 	text-align: center;
+	position: relative;
 }
 
 .formu-cont
@@ -365,6 +366,7 @@ header
 	margin: auto;
 	text-align: left;
 	display: grid;
+	position: relative;
 }
 .imp-but
 {
@@ -372,7 +374,6 @@ header
 	border-bottom: 2px solid #161616;
 	font-size: 22px;
 	padding: 20 0 10 0;
-	overflow: hidden;
 	outline: none;
 	transition: all ease 0.7s;
 	font-family: 'raleway', sans-serif;
@@ -400,14 +401,14 @@ header
 }
 #btn-cont 
 {
-	color: #161616;
-	padding: 10 60;
-	font-size: 18;
-	font-weight: 600;
-	margin: 0px auto 40 auto;
-	display: block;
+	color: #161661;
+	font-size: 20px;
+	position: relative;
+	padding: 10 40;
+	display: inline-block;
 	left: 0;
 	right: 0;
+	margin: auto;
 }
 #btn-cont:hover
 {
@@ -417,7 +418,9 @@ header
 {
 	background-color: gainsboro;
 	text-align: center;
-	padding: 20 0 40;;
+	padding: 20 0 40;
+	position: relative;
+	margin-top: 50px;
 }
 .dir-cont .title
 {

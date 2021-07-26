@@ -9,6 +9,11 @@
 	{
 		font-size: 25px;
 	}
+	.banner
+	{
+		height: 70vh;
+	}
+	
 	/*------------------------------------menu*/
 	#logo-dsk
 	{
@@ -112,12 +117,6 @@
 	.formu-cont
 	{
 		max-width: 1500px;
-	}
-	#contacto .boton
-	{
-		display: inline-block;
-		margin: 50;
-		top: 0; 
 	}
 	#contacto .title
 	{
