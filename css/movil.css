@@ -222,7 +222,7 @@ header
 {
 	position: relative;
 	width: 270px;
-	top: -100px;
+	
 }
 .card:hover .bg
 {
@@ -234,27 +234,7 @@ header
 	opacity: 1;
 	cursor: pointer;
 }
-#scnd
-{
-	height: 275px;
-	width: auto;
-	top: 0px;
-	right: 50px;
-}
-#trd
-{
-	height: 275px;
-	width: auto;
-	top: 0px;
-	right: 50px;
-}
-#fth
-{
-	height: 275px;
-	width: auto;
-	top: 0px;
-	right: 50px;
-}
+
 
 /*-Galeria 7w7--------------------------------------------*/
 
