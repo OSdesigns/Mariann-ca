@@ -24,7 +24,6 @@ body
 }
 
 /*-header-------------------------------------------------------------*/
-
 header
 {
 	height: 50px;
@@ -73,21 +72,27 @@ header
 #menu
 {
 	height: 100vh;
-	width: 84%;
+	width: 100%;
 	background-color: rgba(255,0,0,0.7);
 	position: absolute;
-	right: -900;
+	right: -1050;
 	top: 50px;
 	z-index: 800;
+	text-align: center;
+	transition: all ease 0.7s; 
 }
 .now
 {
 	background-color: white;
 	background-image: none;
 }
+.now #btn-men
+{
+	color: red;
+}
 .active
 {
-	transform: translateX(-900px);
+	transform: translateX(-1050px);
 }
 #menu ul
 {
@@ -332,79 +337,36 @@ header
 }
 
 /*-Contacto ^^---------------------------------------*/
+.cont-txt
+{
+	display: none;
+}
 #contacto
 {
 	text-align: center;
 	position: relative;
 }
-
-.formu-cont
+#phone
 {
-	width: 95%;
+	width: 50%;
+	max-width: 300px;
+	position: relative;
+	display: block;
 	left: 0;
 	right: 0;
 	margin: auto;
-	text-align: left;
-	display: grid;
-	position: relative;
-}
-.imp-but
-{
-	border: none;
-	border-bottom: 2px solid #161616;
-	font-size: 22px;
-	padding: 20 0 10 0;
-	outline: none;
-	transition: all ease 0.7s;
-	font-family: 'raleway', sans-serif;
-	font-weight: 400;
-	text-align: left;
-	margin: 0;
-}
-.formu-cont input:focus, #mensaje:focus
-{
-	border-color: rgb(255,0,50);
-}
-#mensaje
-{
-	height: 200px;
-	min-height: 200px;
-	max-height: 200px;
-	min-width: 200px;
-	max-width: 1500px;
-	font-size: 22px;
-	padding: 20 0 10 0;
-	outline: none;
-	border: none;
-	border-bottom: 2px solid #161616;
-	font-family: 'raleway', sans-serif;
-}
-#btn-cont 
-{
-	color: #161661;
-	font-size: 20px;
-	position: relative;
-	padding: 10 40;
-	display: inline-block;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-#btn-cont:hover
-{
-	color: white;
+	padding-top: 20px;
 }
 .dir-cont
 {
-	background-color: gainsboro;
 	text-align: center;
-	padding: 20 0 40;
+	padding: 0 0 40;
 	position: relative;
 	margin-top: 50px;
 }
 .dir-cont .title
 {
-	font-size: 15px;
+	font-size: 20px;
 }
 .dir-cont span
 {

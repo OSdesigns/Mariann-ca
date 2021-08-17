@@ -122,17 +122,77 @@
 	{
 		margin: 50 0;
 	}
-	.dir-cont .title
+	.dir-cont
 	{
-		font-size: 20px;
+		display: none;
 	}
-	.dir-cont span
+	.content
 	{
-		font-size: 45px;
-		display: inline-block;
-		margin: 0 0 20 0;
+		width: 95%;
+		max-width: 1500px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		position: relative;
+		display: flex;
+		flex-wrap: nowrap;
+		margin-bottom: 80;
 	}
-	
+	.tlf
+	{
+		position: relative;
+		width: 50%;
+		position: relative;
+		overflow: hidden;
+	}
+	#phone
+	{
+		position: relative;
+		width: 40%;
+	}
+	.cont-txt
+	{
+		position: relative;
+		width: 50%;
+		height: 600px;
+		text-align: left;
+		font-size: 27px;
+		display: block;
+	}
+	.posi
+	{
+		width: 80%;
+		position: relative;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 50%;
+		transform: translateY(-35%);
+	}
+	.cont-txt .separador
+	{
+		height: 6px;
+		margin: 40 0;
+		width: 100%;
+	}
+	.cont-txt h2
+	{
+		color: #161616;
+	}
+	.cont-txt span
+	{
+		font-family: raleway;
+		font-size: 30px;
+		color: #161616;
+		font-weight: 600;
+		display: block;
+		padding: 20 0;
+	}
+	.cont-txt span:hover
+	{
+		color: rgba(255,0,20,1);
+		cursor: pointer;
+	}
 	/*-------------------------------ubicacion*/
 	
 	.dir
